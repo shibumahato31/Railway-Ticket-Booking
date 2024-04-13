@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Railway Home</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    h1{
+        text-align: center;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    #div{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Register{
+        /* border: 1px solid black; */
+        background-color: rgba(127, 255, 212, 0.199);
+        border-radius: 30px;
+        height: 200px;
+        width: 180px;
+        align-content: center;
+        color: chocolate;
+    }
+    #login{
+        background-color: rgba(127, 255, 212, 0.199);
+        border-radius: 30px;
+        height: 200px;
+        width: 180px;
+        align-content: center;
+        color: green;
+    }
+    a:hover{
+       color: aliceblue;
+    }
+    #admin{
+        background-color: rgba(127, 255, 212, 0.199);
+        border-radius: 30px;
+        height: 200px;
+        width: 180px;
+        align-content: center;
+        color: crimson;
+    }
+    i{
+       font-size: xxx-large;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="ManagementLogin.html">ONLINE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">Login</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Online Ticket Booking
+          </span>
+        </div>
+      </nav>
+<h1>Well Come</h1><br>
+<div id="div">
+<a href="Register.html"><div id="Register"><center><i class="fa-solid fa-user-plus"></i><br><br>
+<h4>Register</h4> </center></div></a>
+<a href="Login.html"><div id="login"><center><i class="fa-solid fa-right-to-bracket"></i><br><br><h4>Login</h4></center></div></a>
+<a href="ManagementLogin.html"><div id="admin"><center><i class="fa-solid fa-train-subway"></i><br><br><h4>Admin</h4></center></div></a>
+</div>
+</body>
+</html>
